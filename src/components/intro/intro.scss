@@ -37,7 +37,7 @@
       justify-content: center;
 
       h1 {
-        font-size: 50px;
+        font-size: 40px;
         color: #393e46;
       }
       h2 {
@@ -48,8 +48,21 @@
         font-size: 30px;
         color: #222831;
         span {
-          font-size: inherit;
-          color: #000000;
+          font-size: 40px;
+          color: crimson;
+        }
+        .ityped-cursor {
+          animation: blink 1s infinite;
+          animation-direction: alternate;
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }

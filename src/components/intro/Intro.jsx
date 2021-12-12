@@ -1,12 +1,18 @@
-import "./intro.scss"
-import Photo from "../../images/photo.png"
+import "./intro.scss";
+import Photo from "../../images/photo.png";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { init } from 'ityped';
+import {useEffect, useRef} from  "react";
 
 
 
 
 
 export default function Intro() {
+    const textRef = useRef();
+            useEffect(() => {
+                init(textRef.current, { showCursor: true, typeSpeed:50, backSpeed:60,backDelay:  1500, strings: ["Frontend Developer", "UI Designer" ] })
+            }, []);
     return (
         <div className= "intro" id = "intro">
             <div className="left">
@@ -18,7 +24,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2> Hello There, I'm </h2>
                     <h1>Tauhid Hasan</h1>
-                    <h3>Freelance <span>Frontend Developer</span></h3>     
+                    <h3>Freelance <span ref = {textRef}></span></h3>     
                 </div>
                  <a href="#portfolio">
                      <ExpandMoreIcon fontSize="large" className="icon"/>
