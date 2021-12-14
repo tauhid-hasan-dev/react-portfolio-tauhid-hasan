@@ -24,7 +24,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2> Hello There, I'm </h2>
                     <h1>Tauhid Hasan</h1>
-                    <h3>Freelance <span ref = {textRef}></span></h3>     
+                    <h3> <span ref = {textRef}></span></h3>     
                 </div>
                  <a href="#portfolio">
                      <ExpandMoreIcon fontSize="large" className="icon"/>
