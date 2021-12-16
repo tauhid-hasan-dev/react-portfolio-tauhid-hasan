@@ -1,3 +1,91 @@
 .projects {
   background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    color: white;
+
+    &.right {
+      right: 100px;
+    }
+    &.left {
+      left: 100px;
+      transform: rotate(180deg);
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 10px;
+          margin-right: 10px;
+          .imgContainer {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #4f44c2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .icon {
+              color: white;
+            }
+          }
+          h2 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 13px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          background-color: #4f44c2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 700px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
 }
