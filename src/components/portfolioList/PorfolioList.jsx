@@ -1,6 +1,6 @@
 import "./portfolioList.scss"
 
-export default function Porfoliolist({id,title,active,setSelected}) {
+export default function Porfoliolist({key,id,title,active,setSelected}) {
 
     
     return (
