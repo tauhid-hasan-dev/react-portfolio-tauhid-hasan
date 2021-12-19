@@ -3,16 +3,18 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import { useState } from "react";
 import App3 from "../../images/App3.png";
 import Slide from "../../images/arrow.png";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import WebIcon from '@mui/icons-material/Web';
 
 
 export default function Projects() {
     const [currentSlide, setCurrentSlide] = useState(0)
     const data = [{
         id:"1",
-        icon: <PhoneIphoneIcon/>,
+        icon: <WebIcon/>,
         title:"Web Design",
         desc: "This is a web design ",
-        img: <PhoneIphoneIcon/>,      
+        img: <WebIcon/>,      
     },
     {
         id:"2",
@@ -57,8 +59,8 @@ export default function Projects() {
                 </div>))}
                 
             </div>
-            <img src={Slide} alt= "" className="arrow left" onClick ={()=>handleClick("left")}/>
-            <img src={Slide} alt= "" className="arrow right" onClick ={()=>handleClick()}/>
+            <ArrowForwardIosIcon  src={Slide} alt= "" className="arrow left" onClick ={()=>handleClick("left")}/>
+            <ArrowForwardIosIcon  src={Slide} alt= "" className="arrow right" onClick ={()=>handleClick()}/>
         </div>
     )
 }
