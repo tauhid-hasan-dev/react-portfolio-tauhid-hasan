@@ -1,31 +1,47 @@
+@import "../../global.scss";
+
 .intro {
-  background-color: white;
+  background-color: #fff5e3;
   display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .left {
     flex: 0.5;
+    overflow: hidden;
     display: flex;
-    background-color: rgb(255, 255, 255);
-    z-index: 1;
     align-items: center;
     justify-content: center;
+
     .imageContainer {
-      height: 700px;
-      width: 700px;
-      background-color: rgb(245, 244, 244);
+      height: 600px;
+      width: 600px;
+      background-color: fff5e3;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
+
+      @include mobile {
+        align-items: flex-start;
+        height: 600px;
+        width: 600px;
+      }
     }
     img {
       height: 90%;
       bottom: 0;
+      @include mobile {
+        height: 50%;
+      }
     }
   }
   .right {
     flex: 0.5;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff5e3;
     position: relative;
 
     .wrapper {
@@ -35,6 +51,11 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
 
       h1 {
         font-size: 40px;
@@ -47,9 +68,14 @@
       h3 {
         font-size: 30px;
         color: #222831;
+
         span {
           font-size: 40px;
           color: crimson;
+
+          @include mobile {
+            font-size: 25px;
+          }
         }
         .ityped-cursor {
           animation: blink 1s infinite;
@@ -70,6 +96,9 @@
     a {
       position: absolute;
       bottom: 10px;
+      @include mobile {
+        display: none;
+      }
 
       .icon {
         font-size: 80px;

@@ -1,3 +1,103 @@
+@import "../../global.scss";
+
 .contact {
-  background-color: lightblue;
+  background-color: #353434;
+  display: flex;
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .left {
+    flex: 1;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 30px;
+    }
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      color: white;
+
+      input {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+        padding: 1em;
+        display: block;
+        margin-top: 1em;
+        border: 0;
+        outline: 0;
+        border-radius: 8px;
+        background-color: rgb(65, 63, 63);
+        color: rgb(255, 255, 255);
+
+        &:focus {
+          box-shadow: 0px 0px 15px -8px rgb(240, 240, 240);
+        }
+
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
+      }
+      textarea {
+        width: 80%;
+        padding: 1em;
+        display: block;
+        margin-top: 1em;
+        height: 150px;
+        font-size: 14px;
+        border-radius: 8px;
+        border: 0;
+        outline: 0;
+        background-color: rgb(65, 63, 63);
+        color: rgb(255, 255, 255);
+        &:focus {
+          box-shadow: 0px 0px 15px -8px rgb(240, 240, 240);
+        }
+
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
+      }
+      button {
+        width: 85%;
+        height: 50px;
+        color: white;
+        margin-top: 1em;
+        padding: 1em 2em;
+        background-color: rgb(38, 167, 107);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      span {
+        color: rgb(38, 167, 107);
+        margin-top: 10px;
+        overflow: hidden;
+      }
+    }
+  }
 }
