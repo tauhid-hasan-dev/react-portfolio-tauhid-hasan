@@ -2,99 +2,99 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Social Media App",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFF5E3/000000.png&text=Social+Media"
     },
     {
         id: 2,
-        title: "UI design",
-        img:"https://dummyimage.com/600x400/7FB069/ffffff.jpg&text=UI design"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.jpg&text=E-commerce Site"
     },
     {
         id: 3,
-        title: "E-commerce ",
-        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=E-commerce"
+        title: "Coming Soon ",
+        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=Shopify Site"
     }, 
     {
         id: 1,
-        title: "Social Media App",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Delivery App"
     },
     {
         id: 2,
-        title: "UI design",
-        img:"https://dummyimage.com/600x400/7FB069/ffffff.jpg&text=UI design"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=Crypto Trading"
     },
     {
         id: 3,
-        title: "E-commerce ",
-        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=E-commerce"
+        title: "Coming Soon ",
+        img:"https://dummyimage.com/600x400/FFF5E3/000000.jpg&text=Pod Business"
     }, 
 ];
 
 export const webPortfolio = [
     {
         id: 1,
-        title: "Admin Panel",
-        img:"https://dummyimage.com/600x400/C9184A/ffffff.png&text=Admin+Panel"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FE8F8F/000000.png&text=E-commerce App"
     },
     {
         id: 2,
-        title: "Food Delivery",
-        img:"https://dummyimage.com/600x400/74C69D/ffffff.png&text=Food+Delivery"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=Admin Panel"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FE8F8F/000000.png&text=Social+Media"
     }, 
     {
         id: 1,
-        title: "Admin Panel",
-        img:"https://dummyimage.com/600x400/C9184A/ffffff.png&text=Admin+Panel"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=HR management"
     },
     {
         id: 2,
-        title: "Food Delivery",
-        img:"https://dummyimage.com/600x400/74C69D/ffffff.png&text=Food+Delivery"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFEDD3/000000.png&text=Food+Delivery"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Track System"
     }, 
 ];
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: "Admin Panel",
-        img:"https://dummyimage.com/600x400/C9184A/ffffff.png&text=Admin+Panel"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/C9184A/000000.png&text=Admin+Panel"
     },
     {
         id: 2,
-        title: "Food Delivery",
-        img:"https://dummyimage.com/600x400/74C69D/ffffff.png&text=Food+Delivery"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=Food+Delivery"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Social+Media"
     },
     {
         id: 1,
-        title: "Admin Panel",
-        img:"https://dummyimage.com/600x400/C9184A/ffffff.png&text=Admin+Panel"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/C9184A/000000.png&text=Admin+Panel"
     },
     {
         id: 2,
-        title: "Food Delivery",
-        img:"https://dummyimage.com/600x400/74C69D/ffffff.png&text=Food+Delivery"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=Food+Delivery"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Social+Media"
     },
      
 ];
@@ -102,66 +102,66 @@ export const mobilePortfolio = [
 export const designPortfolio = [
     {
         id: 1,
-        title: "Taxi App",
-        img:"https://dummyimage.com/600x400/F7B538/000000.png&text=Taxi+App"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFF5E3/000000.png&text=Social+Media"
     },
     {
         id: 2,
-        title: "Visiting Cards",
-        img:"https://dummyimage.com/600x400/ED6A5E/000000.png&text=Visiting+Card"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.jpg&text=E-commerce Site"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon ",
+        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=Shopify Site"
     }, 
     {
         id: 1,
-        title: "Taxi App",
-        img:"https://dummyimage.com/600x400/F7B538/000000.png&text=Taxi+App"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Delivery App"
     },
     {
         id: 2,
-        title: "Visiting Cards",
-        img:"https://dummyimage.com/600x400/ED6A5E/000000.png&text=Visiting+Card"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFFBBD/000000.jpg&text=Crypto Trading"
     },
     {
         id: 3,
-        title: "Social Media",
-        img:"https://dummyimage.com/600x400/FFAF87/ffffff.png&text=Social+Media"
+        title: "Coming Soon ",
+        img:"https://dummyimage.com/600x400/FFF5E3/000000.jpg&text=Pod Business"
     }, 
 ];
 
 export const contentPortfolio = [
     {
         id: 1,
-        title: "Facebook Content",
-        img:"https://dummyimage.com/600x400/168AAD/ffffff.png&text=Facebook+Content"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FE8F8F/000000.png&text=Portfolio UI"
     },
     {
         id: 2,
-        title: "Youtube Content",
-        img:"https://dummyimage.com/600x400/AD080F/ffffff.png&text=YouTube+Content"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=Landing Page"
     },
     {
         id: 3,
-        title: "Instagram Content",
-        img:"https://dummyimage.com/600x400/52B788/ffffff.png&text=Intagram+Content"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FE8F8F/000000.png&text=Admin Panel"
     }, 
     {
         id: 1,
-        title: "Facebook Content",
-        img:"https://dummyimage.com/600x400/168AAD/ffffff.png&text=Facebook+Content"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/74C69D/000000.png&text=Real State"
     },
     {
         id: 2,
-        title: "Youtube Content",
-        img:"https://dummyimage.com/600x400/AD080F/ffffff.png&text=YouTube+Content"
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFEDD3/000000.png&text=Architecture UI"
     },
     {
         id: 3,
-        title: "Instagram Content",
-        img:"https://dummyimage.com/600x400/52B788/ffffff.png&text=Intagram+Content"
-    }, 
+        title: "Coming Soon",
+        img:"https://dummyimage.com/600x400/FFAF87/000000.png&text=Pet Shop"
+    },
 ];
 

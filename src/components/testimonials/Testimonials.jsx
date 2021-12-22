@@ -2,8 +2,6 @@ import "./testimonials.scss";
 import SubdirectoryArrowRightIcon from '@mui/icons-material/SubdirectoryArrowRight';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Man from "../../images/man.png";
-import Man2 from "../../images/man2.jpeg";
-import Man3 from "../../images/man3.jpeg";
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

@@ -22,16 +22,12 @@ export default function Portfolio() {
             title:"Web App",
         },
         {
-            id: "mobile ",
-            title: "Mobile App",
-        },
-        {
             id: "design",
-            title: "Design",
+            title: "Website",
         },
         {
             id: "content",
-            title: "Content  ",
+            title: "UI Design",
         },
     ]
 
@@ -60,7 +56,7 @@ export default function Portfolio() {
 
     return (
         <div className= "portfolio" id = "portfolio">
-            <h1>Porfolio</h1>
+            <h1>Portfolio</h1>
             <ul>
               {list.map(item => (
                   <PortfolioList 

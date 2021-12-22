@@ -2,6 +2,8 @@ import "./projects.scss";
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import { useState } from "react";
 import App3 from "../../images/App3.png";
+import App4 from "../../images/App4.png";
+import App5 from "../../images/App5.png";
 import Slide from "../../images/arrow.png";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import WebIcon from '@mui/icons-material/Web';
@@ -13,22 +15,22 @@ export default function Projects() {
         id:"1",
         icon: <WebIcon/>,
         title:"Web Design",
-        desc: "This is a web design ",
-        img: <WebIcon/>,      
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?",
+        img: <App3/>,      
     },
     {
         id:"2",
         icon: <PhoneIphoneIcon/>,
-        title:"Mobile Application",
-        desc: "This is mobile application ",
-        img: <PhoneIphoneIcon/>,      
+        title:"Web App",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?",
+        img: <App3/>,      
     },
     {
         id:"3",
         icon: <PhoneIphoneIcon/>,
-        title:"Branding",
-        desc: "This is branding page",
-        img: <PhoneIphoneIcon/>,      
+        title:"UI Design",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, dicta?",
+        img: <App3/>,      
     }
     ]
 
@@ -45,11 +47,11 @@ export default function Projects() {
                         <div className="left">
                             <div className="leftContainer">
                                 <div className="imgContainer">
-                                    {d.icon}
+                                    <div className="icon">{d.icon}</div>
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc} </p>
-                                <span>Porjects</span>
+                                {/* <span>Porjects</span> */}   
                             </div>
                         </div>
                         <div className="right">

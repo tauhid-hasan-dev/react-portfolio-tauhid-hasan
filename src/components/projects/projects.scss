@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .projects {
-  background-color: #e7ffe9;
+  background-color: #fff5e3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    color: white;
+    color: black;
     cursor: pointer;
 
     @include mobile {
@@ -32,6 +32,7 @@
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+
     @include mobile {
       height: 100vh;
       flex-direction: column;
@@ -43,12 +44,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
 
       .item {
         width: 700px;
-        height: 100%;
+        height: 97%;
         background-color: #fff;
         border-radius: 20px;
+        border: 4px solid black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,18 +68,19 @@
           height: 80%;
           display: flex;
           align-items: center;
-          justify-content: center;
-          margin-left: 10px;
-          margin-right: 10px;
+
+          margin-left: 30px;
+          margin-right: 0px;
 
           .imgContainer {
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: #4f44c2;
+            background-color: #ffe8d9;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 10px;
 
             @include mobile {
               width: 20px;
@@ -84,11 +88,11 @@
             }
 
             .icon {
-              color: white;
+              color: rgb(75, 75, 75);
             }
           }
           h2 {
-            font-size: 20px;
+            font-size: 30px;
             @include mobile {
               font-size: 15px;
             }
@@ -103,7 +107,7 @@
         .right {
           flex: 8;
           height: 100%;
-          background-color: #4f44c2;
+          background-color: #ffe8d9;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -111,7 +115,6 @@
 
           img {
             width: 700px;
-            transform: rotate(-10deg);
           }
         }
       }
