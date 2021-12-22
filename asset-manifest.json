@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio-tauhid-hasan/static/css/main.643c5c05.chunk.css",
-    "main.js": "/react-portfolio-tauhid-hasan/static/js/main.8f505c77.chunk.js",
-    "main.js.map": "/react-portfolio-tauhid-hasan/static/js/main.8f505c77.chunk.js.map",
+    "main.css": "/react-portfolio-tauhid-hasan/static/css/main.50744dcd.chunk.css",
+    "main.js": "/react-portfolio-tauhid-hasan/static/js/main.757e8976.chunk.js",
+    "main.js.map": "/react-portfolio-tauhid-hasan/static/js/main.757e8976.chunk.js.map",
     "runtime-main.js": "/react-portfolio-tauhid-hasan/static/js/runtime-main.81a9e32c.js",
     "runtime-main.js.map": "/react-portfolio-tauhid-hasan/static/js/runtime-main.81a9e32c.js.map",
-    "static/js/2.3bad0b77.chunk.js": "/react-portfolio-tauhid-hasan/static/js/2.3bad0b77.chunk.js",
-    "static/js/2.3bad0b77.chunk.js.map": "/react-portfolio-tauhid-hasan/static/js/2.3bad0b77.chunk.js.map",
+    "static/js/2.08569a71.chunk.js": "/react-portfolio-tauhid-hasan/static/js/2.08569a71.chunk.js",
+    "static/js/2.08569a71.chunk.js.map": "/react-portfolio-tauhid-hasan/static/js/2.08569a71.chunk.js.map",
     "index.html": "/react-portfolio-tauhid-hasan/index.html",
-    "static/css/main.643c5c05.chunk.css.map": "/react-portfolio-tauhid-hasan/static/css/main.643c5c05.chunk.css.map",
-    "static/js/2.3bad0b77.chunk.js.LICENSE.txt": "/react-portfolio-tauhid-hasan/static/js/2.3bad0b77.chunk.js.LICENSE.txt",
-    "static/media/App3.353120a3.png": "/react-portfolio-tauhid-hasan/static/media/App3.353120a3.png",
+    "static/css/main.50744dcd.chunk.css.map": "/react-portfolio-tauhid-hasan/static/css/main.50744dcd.chunk.css.map",
+    "static/js/2.08569a71.chunk.js.LICENSE.txt": "/react-portfolio-tauhid-hasan/static/js/2.08569a71.chunk.js.LICENSE.txt",
+    "static/media/App3.f9f11c64.png": "/react-portfolio-tauhid-hasan/static/media/App3.f9f11c64.png",
+    "static/media/App4.7ffda7d4.png": "/react-portfolio-tauhid-hasan/static/media/App4.7ffda7d4.png",
+    "static/media/App5.cc9a5ed3.png": "/react-portfolio-tauhid-hasan/static/media/App5.cc9a5ed3.png",
     "static/media/arrow.8c7ca539.png": "/react-portfolio-tauhid-hasan/static/media/arrow.8c7ca539.png",
     "static/media/contact.0c4b0db9.jpg": "/react-portfolio-tauhid-hasan/static/media/contact.0c4b0db9.jpg",
     "static/media/man.9a555b05.png": "/react-portfolio-tauhid-hasan/static/media/man.9a555b05.png",
-    "static/media/man2.addb2a18.jpeg": "/react-portfolio-tauhid-hasan/static/media/man2.addb2a18.jpeg",
-    "static/media/man3.6fced04b.jpeg": "/react-portfolio-tauhid-hasan/static/media/man3.6fced04b.jpeg",
-    "static/media/photo.52ebf9b8.png": "/react-portfolio-tauhid-hasan/static/media/photo.52ebf9b8.png"
+    "static/media/photo.60b060dc.png": "/react-portfolio-tauhid-hasan/static/media/photo.60b060dc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.81a9e32c.js",
-    "static/js/2.3bad0b77.chunk.js",
-    "static/css/main.643c5c05.chunk.css",
-    "static/js/main.8f505c77.chunk.js"
+    "static/js/2.08569a71.chunk.js",
+    "static/css/main.50744dcd.chunk.css",
+    "static/js/main.757e8976.chunk.js"
   ]
 }
