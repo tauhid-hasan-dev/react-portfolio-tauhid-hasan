@@ -1,20 +1,22 @@
 import "./topbar.scss"
-import { PersonOutline, MailOutline } from "@material-ui/icons"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className= {"topbar "+ (menuOpen && "active")}>
             <div className="wrapper" >
                 <div className="left">
-                    <a href="#projects" className="logo">tasan.</a>
-                    <div className="itemContainer">
-                        <PersonOutline className="icon" />
-                        <span>+905076260228</span>
-                    </div>
-                    <div className="itemContainer">
-                        <MailOutline className="icon" />
-                        <span>tauhidhasan11@gmail.com</span>
-                    </div>
+                    <a href="#intro" className="logo">tasan.</a>   
+                </div>
+                <div className="middle">
+                        <div className="itemContainer">
+                            <a href="https://github.com/tauhid-hasan-dev/"><GitHubIcon  className="icon"/></a>
+                        </div>
+                        <div className="itemContainer">
+                            <a href="https://www.linkedin.com/in/tauhid-hasan"><LinkedInIcon className="icon1"/></a>
+                        </div>
                 </div>
                 <div className="right">
                     <div className="humburger" onClick = {()=> setMenuOpen (!menuOpen)}>

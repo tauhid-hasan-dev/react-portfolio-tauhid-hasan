@@ -19,31 +19,55 @@
     .left {
       display: flex;
       align-items: center;
+      justify-content: space-between;
+      flex: 0.9;
 
       .logo {
         font-size: 45 +3px;
         color: inherit;
         font-weight: 700;
         text-decoration: none;
-      }
-      .itemContainer {
-        display: flex;
-        align-items: center;
-        margin-left: 30px;
-
         @include mobile {
-          display: none;
+          font-size: 45 +3px;
         }
+      }
+    }
 
-        .icon {
-          font-size: 18px;
-          font-weight: 5px;
+    .middle {
+      display: flex;
+      align-items: center;
+
+      .itemContainer {
+        margin-left: 10px;
+        margin-top: 6px;
+        a {
+          .icon {
+            color: #706f6f;
+            font-size: 20px;
+            &:hover {
+              color: rgb(38, 167, 107);
+            }
+          }
+          .icon1 {
+            color: #706f6f;
+            font-size: 26px;
+            &:hover {
+              color: rgb(38, 167, 107);
+            }
+          }
         }
-        span {
-          font-size: 15px;
-          font-weight: 500;
-          margin-left: 3px;
-        }
+      }
+      @include mobile {
+        display: none;
+      }
+      .icon {
+        font-size: 18px;
+        font-weight: 5px;
+      }
+      span {
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 3px;
       }
     }
 
@@ -72,6 +96,18 @@
   &.active {
     background-color: $mainColor;
     color: white;
+    .wrapper {
+      .middle {
+        .icon {
+          color: #ffffff;
+          font-size: 25px;
+        }
+      }
+    }
+    .icon {
+      color: #ffffff;
+      font-size: 25px;
+    }
     .humburger {
       span {
         &:first-child {

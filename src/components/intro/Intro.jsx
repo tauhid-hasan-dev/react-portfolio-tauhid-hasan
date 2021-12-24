@@ -18,19 +18,15 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
-                <div className="wrapper-top">
                     <div className="wrapper">
                         <h2> Hello There, I'm </h2>
                         <h1> Tauhid Hasan </h1>
                         <h3> <span ref={textRef}></span></h3>
-                        <p>I design and develop web sites and web apps <br />
-                            for customers of all sizes.<br />
-                            and specializing in creating stylish,<br />
-                            modern websites and web apps.
-                        </p>
 
+                        <p>I am a Frontend Developer and UI designer<br />
+                          And I am looking for a full time Job!<br /> 
+                        </p>
                     </div>
-                </div>
                 <a href="#portfolio">
                     <ExpandMoreIcon fontSize="large" className="icon" />
                 </a>
