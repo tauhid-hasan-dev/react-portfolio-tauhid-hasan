@@ -19,28 +19,31 @@ export default function Contact() {
             <h2>Contact Info</h2>
                 <div className="wrapper">
                 <div className="item">
-                        <EmailIcon/>
+                        <EmailIcon className="icon"/>
                         <h3>  </h3>
                         <p>tauhidhasan11@gmail.com</p>
                     </div>
                     <div className="item">
-                        <GitHubIcon />
-                        <h3>GitHub  </h3>
-                        <a href="https://github.com/tauhid-hasan-dev">tauhid-hasan-dev</a>
+                        <GitHubIcon className="icon"/>
+                        <h3>GitHub:</h3>
+                        <h3> <a href="https://github.com/tauhid-hasan-dev">tauhid-hasan-dev</a></h3>
+                        
                     </div>
                     <div className="item">
-                        <LinkedInIcon/>
-                        <h3>Linked IN  </h3>
-                        <a href="https://www.linkedin.com/in/tauhid-hasan/">tauhid-hasan</a>
+                        <LinkedInIcon className="icon" />
+                        <h3>LinkedIN: </h3>
+                        <h3><a href="https://www.linkedin.com/in/tauhid-hasan/">tauhid-hasan</a></h3>      
                     </div>  
                     <div className="item">
-                        <CallIcon/>
-                        <p>+905076260228</p>
+                        <CallIcon className="icon" />
+                        <h3>+905076260228</h3>
+                        
                     </div> 
                     <div className="item">
-                        <ArticleIcon/>
-                        <h3> Medium :</h3>
-                        <a href="https://www.linkedin.com/in/tauhid-hasan/">tauhid-hasan</a> 
+                        <ArticleIcon className="icon"/>
+                        <h3> Medium:</h3>
+                        <h3> <a href="https://www.linkedin.com/in/tauhid-hasan/">tauhid-hasan</a></h3>
+                        
                     </div> 
                 </div>  
             </div>

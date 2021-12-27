@@ -44,8 +44,10 @@
       transition: all 1s ease;
 
       @include mobile {
+        width: 260px;
         height: 180px;
-        margin: 10px 0;
+        margin: 12px 0;
+        border: 2px solid black;
       }
 
       &.featured {
@@ -54,7 +56,7 @@
         margin: 0 30px;
 
         @include mobile {
-          width: 250px;
+          width: 260px;
           height: 180px;
           margin: 1px;
         }

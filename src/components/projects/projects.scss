@@ -57,10 +57,11 @@
         justify-content: center;
 
         @include mobile {
-          width: 90%;
+          width: 85%;
           height: 150px;
           margin: 15px 0;
           overflow: hidden;
+          border: 2px solid black;
         }
 
         .left {
@@ -83,8 +84,8 @@
             margin-bottom: 10px;
 
             @include mobile {
-              width: 20px;
-              height: 20px;
+              width: 40px;
+              height: 40px;
             }
 
             .icon {
@@ -94,11 +95,14 @@
           h2 {
             font-size: 30px;
             @include mobile {
-              font-size: 15px;
+              font-size: 12px;
             }
           }
           p {
             font-size: 13px;
+            @include mobile {
+              font-size: 6px;
+            }
           }
           span {
             font-size: 12px;

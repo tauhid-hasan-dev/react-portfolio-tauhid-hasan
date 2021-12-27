@@ -14,8 +14,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     h2 {
       font-size: 30px;
+      @include mobile {
+        font-size: 20px;
+      }
     }
 
     .wrapper {
@@ -30,11 +34,23 @@
       flex-direction: column;
       margin-top: 20px;
       @include mobile {
-        width: 80%;
+        width: 82%;
+        margin-top: 5px;
       }
 
       .item {
         display: flex;
+        h3 {
+          margin-left: 5px;
+        }
+        @include mobile {
+          h3 {
+            font-size: 12px;
+          }
+          p {
+            font-size: 12px;
+          }
+        }
       }
     }
   }
@@ -47,6 +63,9 @@
 
     h2 {
       font-size: 30px;
+      @include mobile {
+        font-size: 20px;
+      }
     }
     form {
       width: 70%;
@@ -58,7 +77,7 @@
       color: white;
 
       @include mobile {
-        width: 80%;
+        width: 92%;
       }
 
       input {
@@ -80,9 +99,12 @@
         }
 
         @include mobile {
-          width: 200px;
-          height: 20px;
+          width: 90%;
+          height: 100px;
+          padding: 2px;
           border: 1px solid black;
+          border-radius: 3px;
+          font-size: 10px;
         }
       }
       textarea {
@@ -103,9 +125,11 @@
         }
 
         @include mobile {
-          width: 200px;
-          height: 100px;
+          width: 90%;
           border: 1px solid black;
+          height: 150px;
+          font-size: 10px;
+          padding: 3px;
         }
       }
       button {
@@ -121,6 +145,12 @@
 
         &:focus {
           outline: none;
+        }
+        @include mobile {
+          width: 92%;
+          padding: 0;
+          height: 100px;
+          border-radius: 5px;
         }
       }
       span {
