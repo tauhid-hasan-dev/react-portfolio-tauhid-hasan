@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
   @include mobile {
     justify-content: space-around;
   }
@@ -15,7 +16,7 @@
     color: rgb(56, 56, 56);
 
     @include mobile {
-      font-size: 20px;
+      display: none;
     }
   }
   .container {
@@ -45,7 +46,7 @@
 
       @include mobile {
         width: 260px;
-        height: 180px;
+        height: 160px;
         margin: 12px 0;
         border: 2px solid black;
       }

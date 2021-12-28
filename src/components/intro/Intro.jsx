@@ -23,8 +23,9 @@ export default function Intro() {
                         <h1> Tauhid Hasan </h1>
                         <h3> <span ref={textRef}></span></h3>
 
-                        <p>I am a Frontend Developer and UI designer<br />
-                          And I am looking for a full time Job!<br /> 
+                        <p>I design and develop services for customers of all sizes.<br />
+                          Specializing in create stylish, modern websites,<br />  
+                          web sevices and online stores. <br /> 
                         </p>
                     </div>
                 <a href="#portfolio">
