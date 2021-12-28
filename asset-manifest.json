@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio-tauhid-hasan/static/css/main.ea316ee2.chunk.css",
-    "main.js": "/react-portfolio-tauhid-hasan/static/js/main.de03065b.chunk.js",
-    "main.js.map": "/react-portfolio-tauhid-hasan/static/js/main.de03065b.chunk.js.map",
+    "main.css": "/react-portfolio-tauhid-hasan/static/css/main.f25bcd85.chunk.css",
+    "main.js": "/react-portfolio-tauhid-hasan/static/js/main.5a391c35.chunk.js",
+    "main.js.map": "/react-portfolio-tauhid-hasan/static/js/main.5a391c35.chunk.js.map",
     "runtime-main.js": "/react-portfolio-tauhid-hasan/static/js/runtime-main.81a9e32c.js",
     "runtime-main.js.map": "/react-portfolio-tauhid-hasan/static/js/runtime-main.81a9e32c.js.map",
     "static/js/2.027ea8a9.chunk.js": "/react-portfolio-tauhid-hasan/static/js/2.027ea8a9.chunk.js",
     "static/js/2.027ea8a9.chunk.js.map": "/react-portfolio-tauhid-hasan/static/js/2.027ea8a9.chunk.js.map",
     "index.html": "/react-portfolio-tauhid-hasan/index.html",
-    "static/css/main.ea316ee2.chunk.css.map": "/react-portfolio-tauhid-hasan/static/css/main.ea316ee2.chunk.css.map",
+    "static/css/main.f25bcd85.chunk.css.map": "/react-portfolio-tauhid-hasan/static/css/main.f25bcd85.chunk.css.map",
     "static/js/2.027ea8a9.chunk.js.LICENSE.txt": "/react-portfolio-tauhid-hasan/static/js/2.027ea8a9.chunk.js.LICENSE.txt",
     "static/media/App3.f9f11c64.png": "/react-portfolio-tauhid-hasan/static/media/App3.f9f11c64.png",
     "static/media/App4.7ffda7d4.png": "/react-portfolio-tauhid-hasan/static/media/App4.7ffda7d4.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.81a9e32c.js",
     "static/js/2.027ea8a9.chunk.js",
-    "static/css/main.ea316ee2.chunk.css",
-    "static/js/main.de03065b.chunk.js"
+    "static/css/main.f25bcd85.chunk.css",
+    "static/js/main.5a391c35.chunk.js"
   ]
 }
